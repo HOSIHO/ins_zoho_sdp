@@ -1,6 +1,7 @@
 Zoho ServiceDesk Plus API 연동 명세서
-2026년 11월 10일 · @kimtaehun
+2026년 11월 10일
 1. 개요
+
 첫 단계는 코드가 아니라 우리 회사 ServiceDesk Plus가 Cloud인지 On-Premise(사내 설치형)인지 확인하는 것입니다. 둘은 인증 방식과 주소가 완전히 달라서, 이 답에 따라 이후 설계가 갈립니다.
 • ServiceDesk Plus(SDP): Zoho Corporation의 IT 관리 브랜드인 ManageEngine이 만든 ITSM(서비스데스크/티켓) 솔루션입니다. 요청(티켓), 문제, 변경, 자산 등을 관리합니다.
 • REST API v3: 웹 화면에서 하는 거의 모든 작업(티켓 생성·조회·수정·노트 추가 등)을 HTTP 호출로 할 수 있게 열어둔 창구입니다. (공식 소개)
